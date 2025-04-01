@@ -18,3 +18,29 @@ This project implements a face recognition-based attendance system using YOLOv8 
 - Streamlit-based Web UI: Allows image uploads for attendance marking.
 
 - CSV-based Attendance Tracking: Logs attendance records for each session.
+
+# Requirements
+
+- Before running the project, install the required dependencies, run:
+
+ pip install face-recognition opencv-python numpy pandas streamlit ultralytics gudhi scipy
+
+ # YOLO Model
+
+Ensure you have the YOLOv8 face detection model in the project directory:
+
+face-recognition.py uses yolov8n-face-lindevs.pt
+
+smart-attendance.py uses yolov8/yolov8n-face.pt
+
+Download YOLO models from Ultralytics YOLOv8.
+
+# How to Use
+
+- Image-Based Attendance (Streamlit UI)
+
+- Run the Streamlit application using this command:
+
+streamlit run face-recognition.py
+
+- Upload an image containing faces. The system will recognize and mark attendance in a CSV file (date-based).

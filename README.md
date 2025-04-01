@@ -44,3 +44,7 @@ Download YOLO models from Ultralytics YOLOv8.
 streamlit run face-recognition.py
 
 - Upload an image containing faces. The system will recognize and mark attendance in a CSV file (date-based).
+
+# Output Format
+
+Attendance is logged in a CSV file named with the current date (YYYY-MM-DD.csv)

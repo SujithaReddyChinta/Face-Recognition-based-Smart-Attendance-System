@@ -35,13 +35,18 @@ smart-attendance.py uses yolov8/yolov8n-face.pt
 
 Download YOLO models from Ultralytics YOLOv8.
 
-# How to Use
+# How to Use( Instructions)
 
-- Image-Based Attendance (Streamlit UI)
+- First clone the repo:    git clone <repo-url>
 
-- Run the Streamlit application using this command:
+- Navigate to your folder:  cd <your-project-folder>
 
-streamlit run face-recognition.py
+- Install requirements:  pip install -r requirements.txt
+   You might come across an error with dlib. I installed it locally. Note: dlib only works on python version 3.9 and 3.10, it wouldn't with versions higher than that.
+
+- Install other libraries: pip install -U face-recognition face_recognition_models opencv-python streamlit numpy scipy pandas matplotlib seaborn gudhi ultralytics
+
+- Finally run this command and Run the Streamlit application using this command:  streamlit run face-recognition.py
 
 - Upload an image containing faces. The system will recognize and mark attendance in a CSV file (date-based).
 

@@ -42,7 +42,8 @@ Download YOLO models from Ultralytics YOLOv8.
 - Navigate to your folder:  cd <your-project-folder>
 
 - Install requirements:  pip install -r requirements.txt
-   You might come across an error with dlib. I installed it locally. Note: dlib only works on python version 3.9 and 3.10, it wouldn't with versions higher than that.
+
+   You might come across an error with dlib. I installed it locally. Note: dlib only works on python version 3.9 and 3.10, it wouldn't work with versions higher than that.
 
 - Install other libraries: pip install -U face-recognition face_recognition_models opencv-python streamlit numpy scipy pandas matplotlib seaborn gudhi ultralytics
 

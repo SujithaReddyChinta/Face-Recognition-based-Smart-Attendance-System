@@ -37,7 +37,7 @@ Download YOLO models from Ultralytics YOLOv8.
 
 # How to Use( Instructions)
 
-- First clone the repo:    git clone <repo-url>
+- First clone the repo in VS Code:    git clone <repo-url>
 
 - Navigate to your folder:  cd <your-project-folder>
 
